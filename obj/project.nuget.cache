@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "goRlpcfhaDk=",
+  "success": true,
+  "projectFilePath": "/home/luisfer/projects/inventory_manager/inventory_manager.csproj",
+  "expectedPackageFiles": [
+    "/home/luisfer/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "/home/luisfer/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/luisfer/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
