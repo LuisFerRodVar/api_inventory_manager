@@ -43,7 +43,6 @@ public class UserDao{
         if (existingUser == null)
         {
             string hashedPassword = ComputeSha256Hash(password);
-
             User user = new User
             {
                 Email = email,
@@ -65,7 +64,6 @@ public class UserDao{
             return currentUser;
         }
         return null;
-
     }
 
     private string ComputeSha256Hash(string rawData)

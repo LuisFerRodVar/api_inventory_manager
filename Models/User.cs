@@ -5,7 +5,7 @@ namespace inventory_manager.Models;
 
 public partial class User
 {
-    public int Id { get; set; }
+    public int? Id { get; set; }
 
     public string? Pass { get; set; }
 
