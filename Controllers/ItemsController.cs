@@ -45,4 +45,16 @@ public class ItemsController : ControllerBase
         await _itemDao.DeleteAsync(id);
         return Ok();
     }
+
+    [HttpGet("count")]
+    public async Task<ActionResult<int>> GetItemCount(){
+        var count = await _itemDao.GetItemCountAsync();
+        return Ok(count);
+    }
+
+    [HttpGet("total-price")]
+    public async Task<ActionResult<decimal>> GetTotalPrice(){
+        var totalPrice = await _itemDao.GetTotalPriceAsync();
+        return Ok(totalPrice);
+    }
 }

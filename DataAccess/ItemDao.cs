@@ -44,4 +44,12 @@ public class ItemDao{
             await _context.SaveChangesAsync();
         }
     }
+
+    public async Task<int> GetItemCountAsync(){
+        return await _context.Items.CountAsync();
+    }
+
+    public async Task<int?> GetTotalPriceAsync(){
+        return await _context.Items.SumAsync(item => item.Price);
+    }
 }
